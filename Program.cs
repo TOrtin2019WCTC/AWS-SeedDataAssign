@@ -37,7 +37,7 @@ namespace SeedData
             };
 
 
-            DateTime startTime = DateTime.Now;
+
 
             DateTime currentDate = DateTime.Now;
 
@@ -82,14 +82,6 @@ namespace SeedData
                 Console.WriteLine($"{e.TimeStamp},{e.Location.Name}");
             }
 
-            DateTime endTime = DateTime.Now;
-            TimeSpan difference = endTime.Subtract(startTime);
-
-            Console.WriteLine($"Days: {difference.Days}");
-            Console.WriteLine($"Hours: {difference.Hours}");
-            Console.WriteLine($"Minutes: {difference.Minutes}");
-            Console.WriteLine($"Seconds: {difference.Seconds}");
-            Console.WriteLine($"Milliseconds: {difference.Milliseconds}");
 
         }
     }
