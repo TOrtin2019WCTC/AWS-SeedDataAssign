@@ -64,7 +64,6 @@ namespace SeedData
 
 
                     allDailyEvents.Add(eventDateTime, newEvent);
-                    Console.WriteLine(newEvent.TimeStamp);
 
 
                 }
